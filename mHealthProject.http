@@ -1,0 +1,6 @@
+@mHealthProject_HostAddress = http://localhost:5225
+
+GET {{mHealthProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
