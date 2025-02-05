@@ -42,3 +42,16 @@ Generate Run/Debug Configurations: If you haven't already, JetBrains Rider will 
 Run the Project: You can run the project by clicking on the run button in the toolbar and selecting the appropriate configuration from the dropdown menu. Alternatively, you can right-click the project in the Solution Explorer and choose "Run '...'". This will create a temporary run configuration for the first profile in launchSettings.json and execute it.
 If you encounter issues, make sure your environment is correctly set up with the appropriate .NET SDK versions and that JetBrains Rider is configured to use the correct SDK and runtime.
 You can also Open the SLN file inside of the folder and it should open all of the resources that you need to start the API
+
+
+###Running .NET Core in Visual Studio
+To run a .NET Core application in Visual Studio on Windows, follow these steps:
+
+Open the Project: Open your .NET Core project in Visual Studio.
+Build the Project: Ensure that your project is built successfully. You can do this by clicking on the Build menu and selecting Build Solution, or by pressing Ctrl+Shift+B.
+Run the Project: To run the project, you can use one of the following methods:
+Click on the Start button in the toolbar, which looks like a green play button. This will run the project without debugging.
+Alternatively, you can use the dotnet run command from the Developer Command Prompt for Visual Studio. To open the Developer Command Prompt, go to Tools > Command Line > Developer Command Prompt for VS 2019 (or your version of Visual Studio). Navigate to your project directory and run the command dotnet run.
+If you encounter any issues, make sure that the .NET SDK is installed on your system. You can download and install it from the official .NET website: https://dotnet.microsoft.com/download/dotnet
+
+For more detailed instructions on running and debugging .NET Core applications in Visual Studio, you can refer to the Microsoft documentation: https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio
