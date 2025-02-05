@@ -151,3 +151,4 @@
 /Users/dreprice/emsite/mHealthProject/mHealthProject/obj/Debug/net9.0/mHealthProject.pdb
 /Users/dreprice/emsite/mHealthProject/mHealthProject/obj/Debug/net9.0/mHealthProject.genruntimeconfig.cache
 /Users/dreprice/emsite/mHealthProject/mHealthProject/obj/Debug/net9.0/ref/mHealthProject.dll
+/Users/dreprice/emsite/mHealthProject/mHealthProject/obj/Debug/net9.0/mHealthProject.sourcelink.json

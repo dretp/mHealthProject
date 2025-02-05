@@ -17,7 +17,7 @@ public class PipelineMiddleware(RequestDelegate next)
         "/auth",
         "/account",
         "/account/create",
-        "patient/list"
+        
     ];
 
     public async Task Invoke(HttpContext context)
