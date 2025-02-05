@@ -1,7 +1,7 @@
 # mHealthProject Dotnet core 9.0 API for MpathHealth
 HTTPS and Issues in macOS
 Cleaning and trusing the dev certs
-If you run into issues run the following command in the terminal within CrashPadAPI directory:
+If you run into issues run the following command in the terminal within  directory:
 
 dotnet dev-certs https --clean
 dotnet dev-certs https
