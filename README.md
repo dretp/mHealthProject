@@ -27,3 +27,17 @@ Click on the "Import" button to load the collection. The collection will now be 
 If you encounter issues importing a JSON file, ensure the file is in the correct format (Collection v2.1 or later). If the JSON file was exported from an older version (v1), you may need to convert it to v2 format using the Postman Collection Transformer tool.
 
 For more detailed instructions, you can refer to the official Postman documentation on importing and exporting data: https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/
+
+
+
+
+### Running the project In Rider
+Running Dotnet Core Project in Rider
+To run a .NET Core project in JetBrains Rider, follow these steps:
+
+Open the Project: Open your .NET Core project in JetBrains Rider.
+Locate launchSettings.json: Ensure that your project has a launchSettings.json file in the Properties folder. This file contains configurations for running and debugging your application.
+Generate Run/Debug Configurations: If you haven't already, JetBrains Rider will automatically generate run/debug configurations from the launchSettings.json file when you first open the project. If not, you can manually import the profiles by right-clicking on launchSettings.json in the Solution Explorer and selecting "Generate Configurations."
+Run the Project: You can run the project by clicking on the run button in the toolbar and selecting the appropriate configuration from the dropdown menu. Alternatively, you can right-click the project in the Solution Explorer and choose "Run '...'". This will create a temporary run configuration for the first profile in launchSettings.json and execute it.
+If you encounter issues, make sure your environment is correctly set up with the appropriate .NET SDK versions and that JetBrains Rider is configured to use the correct SDK and runtime.
+You can also Open the SLN file inside of the folder and it should open all of the resources that you need to start the API
