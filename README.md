@@ -18,7 +18,7 @@ In the event you need to add an endpoint that does not need a JWT token, then it
 For all other endpoints make sure you used the Auth Admin endpoint FIRST to grab the JWT Token from the Header  so you can bypass the security layer
 
 
-###PostMan collections endpoint
+#PostMan collections endpoint
 To test the backend API alone please download and import mHealth.postman_collection.json from the  repo once you have the file please follow the steps below 
 
 Open Postman and click on the "Import" button located in the top left corner.
