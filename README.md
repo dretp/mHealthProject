@@ -52,6 +52,11 @@ Build the Project: Ensure that your project is built successfully. You can do th
 Run the Project: To run the project, you can use one of the following methods:
 Click on the Start button in the toolbar, which looks like a green play button. This will run the project without debugging.
 Alternatively, you can use the dotnet run command from the Developer Command Prompt for Visual Studio. To open the Developer Command Prompt, go to Tools > Command Line > Developer Command Prompt for VS 2019 (or your version of Visual Studio). Navigate to your project directory and run the command dotnet run.
-If you encounter any issues, make sure that the .NET SDK is installed on your system. You can download and install it from the official .NET website: https://dotnet.microsoft.com/download/dotnet
+
+
 
 For more detailed instructions on running and debugging .NET Core applications in Visual Studio, you can refer to the Microsoft documentation: https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio
+
+###Azure SQL Sever
+
+Please note I'm using the free version of SS and sometimes the database goes into sleep mode so you might have to wait or make a second request to hit the database to wake it up.
